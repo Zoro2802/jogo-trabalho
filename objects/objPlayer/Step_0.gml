@@ -21,12 +21,16 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")){
 	}
 }
 
-if keyboard_check(vk_anykey){
-sprite_index = sprPlayerCorrendo
+//Não muda o sprite enquanto estiver dando dash
+if sprite_index != sprPlayerDash{
+	if keyboard_check(vk_anykey){
+		sprite_index = sprPlayerCorrendo
+	}
+	else{
+		sprite_index= sprPlayer
+	}
 }
-else{
-	sprite_index= sprPlayer
-}
+
 /*
 if y <= 0{
 	y += velocidade
@@ -58,4 +62,26 @@ y += velocidadeVertical
 
 if (keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space)) and place_meeting(x, y + 10, objColisao){
 	velocidadeVertical -= tamanhoPulo
+}
+
+if keyboard_check_pressed(ord("Q")) and global.tempoDash == 0{
+	velocidadeHorizontal = velocidadeDash * image_xscale
+	sprite_index=sprPlayerDash
+	
+	global.tempoDash = 17;
+	alarm[11] = 60 
+	
+}
+
+if velocidadeHorizontal != 0{
+	velocidadeHorizontal -= 0.5 * sign(velocidadeHorizontal) 
+	
+	//Quando chega a zero, volta ao sprite nomal
+	if velocidadeHorizontal == 0{
+		sprite_index = sprPlayer
+	}
+}
+
+if x > 0 and x < room_width{
+	x += velocidadeHorizontal
 }

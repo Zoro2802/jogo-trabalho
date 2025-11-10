@@ -1,0 +1,1 @@
+draw_sprite(sprDashCollDown, 17 - global.tempoDash, x,y)
