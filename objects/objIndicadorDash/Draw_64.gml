@@ -1,1 +1,1 @@
-draw_sprite(sprDashCollDown, 17 - global.tempoDash, x,y)
+draw_sprite(sprDashCollDown, 15 - global.tempoDash, x,y)

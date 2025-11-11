@@ -68,7 +68,7 @@ if keyboard_check_pressed(ord("Q")) and global.tempoDash == 0{
 	velocidadeHorizontal = velocidadeDash * image_xscale
 	sprite_index=sprPlayerDash
 	
-	global.tempoDash = 17;
+	global.tempoDash = 15;
 	alarm[11] = 60 
 	
 }
