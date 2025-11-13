@@ -3,7 +3,7 @@
   "%Name":"sprPlayerDash",
   "bboxMode":0,
   "bbox_bottom":127,
-  "bbox_left":32,
+  "bbox_left":25,
   "bbox_right":87,
   "bbox_top":18,
   "collisionKind":1,
