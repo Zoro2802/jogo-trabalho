@@ -11,3 +11,6 @@ velocidadeHorizontal = 0
 velocidadeDash = 10
 
 global.tempoDash = 0
+
+mostrar = false
+
