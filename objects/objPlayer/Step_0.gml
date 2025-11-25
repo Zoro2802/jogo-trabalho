@@ -22,12 +22,12 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")){
 }
 
 //Não muda o sprite enquanto estiver dando dash
-if sprite_index != sprPlayerDash{
+if global.tempoDash != 15{
 	if keyboard_check(vk_anykey){
-		sprite_index = sprPlayerCorrendo
+		sprite_index = skinsPlayer[global.playerAtual][1]
 	}
 	else{
-		sprite_index= sprPlayer
+		sprite_index=skinsPlayer[global.playerAtual][0]
 	}
 }
 
@@ -66,8 +66,7 @@ if (keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space
 
 if keyboard_check_pressed(ord("Q")) and global.tempoDash == 0{
 	velocidadeHorizontal = velocidadeDash * image_xscale
-	sprite_index=sprPlayerDash
-	
+	sprite_index= skinsPlayer[global.playerAtual][2]	
 	global.tempoDash = 15;
 	alarm[11] = 60 
 	
@@ -76,9 +75,9 @@ if keyboard_check_pressed(ord("Q")) and global.tempoDash == 0{
 if velocidadeHorizontal != 0{
 	velocidadeHorizontal -= 0.5 * sign(velocidadeHorizontal) 
 	
-	//Quando chega a zero, volta ao sprite nomal
+	//Quando chega a zero, volta ao sprite normal
 	if velocidadeHorizontal == 0{
-		sprite_index = sprPlayer
+		sprite_index = skinsPlayer[global.playerAtual][0]
 	}
 }
 
