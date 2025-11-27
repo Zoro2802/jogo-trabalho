@@ -101,6 +101,7 @@
     {"name":"inst_1A0276FB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6375C578","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4BB384D0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_552D695F","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -200,6 +201,7 @@
         {"$GMRInstance":"v2","%Name":"inst_1A0276FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A0276FB","objectId":{"name":"objPontos","path":"objects/objPontos/objPontos.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_6375C578","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6375C578","objectId":{"name":"objMagoSupremo","path":"objects/objMagoSupremo/objMagoSupremo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.0,"x":1056.0,"y":256.0,},
         {"$GMRInstance":"v2","%Name":"inst_4BB384D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BB384D0","objectId":{"name":"objMensagem1","path":"objects/objMensagem1/objMensagem1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":64.0,},
+        {"$GMRInstance":"v2","%Name":"inst_552D695F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_552D695F","objectId":{"name":"objEventario","path":"objects/objEventario/objEventario.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":80.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Chegada","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_479248C2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_479248C2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprFundo2","path":"sprites/sprFundo2/sprFundo2.yy",},"x":4640.0,"y":416.0,},
