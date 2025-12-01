@@ -22,7 +22,7 @@ texto = ["Ha 40 anos, o mundo enfrentou uma\nguerra devastadora contra o pai do\
 "O selo esta tremendo.\n"+
 "As sombras de Val’Gorath começam a se\n mover mais uma vez."+
 "Se ninguem agir…\n"+
-"o Dragon King retornara."]
+"o Dragon King retornara.", "Seu objetivo e derrotalo"]
 
 paginaAtual = 0
 

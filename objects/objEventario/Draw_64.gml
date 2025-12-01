@@ -1,0 +1,1 @@
+draw_sprite(sprEventario, global.playerAtual, x,y)

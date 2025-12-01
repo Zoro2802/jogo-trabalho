@@ -6,7 +6,7 @@ if keyboard_check(vk_down) or keyboard_check(ord("S")){
 */
 
 if keyboard_check_direct(vk_left) or keyboard_check(ord("A")){
-	x -= velocidade
+	x -= global.velocidade
 
 	 if image_xscale > 0{
 		image_xscale *= -1
@@ -14,7 +14,7 @@ if keyboard_check_direct(vk_left) or keyboard_check(ord("A")){
 }
 
 if keyboard_check(vk_right) or keyboard_check(ord("D")){
-	x += velocidade
+	x += global.velocidade
 	
 	if image_xscale < 0{
 		image_xscale *= -1
@@ -41,11 +41,11 @@ if y >= room_height{
 }*/
 
 if x <= 0{
-	x += velocidade
+	x += global.velocidade
 }
 
 if x >= room_width{
-	x -= velocidade
+	x -= global.velocidade
 }
 
 
@@ -61,7 +61,7 @@ if place_meeting(x, y + velocidadeVertical, objColisao){
 y += velocidadeVertical
 
 if (keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space)) and place_meeting(x, y + 10, objColisao){
-	velocidadeVertical -= tamanhoPulo
+	velocidadeVertical -= global.tamanhoPulo
 }
 
 if keyboard_check_pressed(ord("Q")) and global.tempoDash == 0{

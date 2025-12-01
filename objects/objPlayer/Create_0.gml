@@ -1,10 +1,17 @@
-velocidade = 4
+if ! variable_global_exists("velocidade"){
+	global.velocidade = 4
+}
+
+if ! variable_global_exists("tamanhoPulo"){
+	global.tamanhoPulo = 6 
+}
+
 global.pontos = 0
 gravidade = 0.5
 
 velocidadeVertical = 0
 
-tamanhoPulo = 6       
+    
 
 velocidadeHorizontal = 0
 

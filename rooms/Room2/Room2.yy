@@ -48,6 +48,8 @@
     {"name":"inst_659CEA51","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3383B55A","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_70F2AA41","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_37313FFC","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_71B357F8","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -94,6 +96,8 @@
         {"$GMRInstance":"v2","%Name":"inst_659CEA51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_659CEA51","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.75,"x":111.5,"y":493.0,},
         {"$GMRInstance":"v2","%Name":"inst_3383B55A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3383B55A","objectId":{"name":"objColisao","path":"objects/objColisao/objColisao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_70F2AA41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70F2AA41","objectId":{"name":"objColisao","path":"objects/objColisao/objColisao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":640.0,},
+        {"$GMRInstance":"v2","%Name":"inst_37313FFC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37313FFC","objectId":{"name":"objColetavelFase2","path":"objects/objColetavelFase2/objColetavelFase2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.5,"x":2112.0,"y":320.0,},
+        {"$GMRInstance":"v2","%Name":"inst_71B357F8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71B357F8","objectId":{"name":"objEventario","path":"objects/objEventario/objEventario.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":150.68637,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Chegada","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_479248C2_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_479248C2_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprFundo2","path":"sprites/sprFundo2/sprFundo2.yy",},"x":4640.0,"y":416.0,},

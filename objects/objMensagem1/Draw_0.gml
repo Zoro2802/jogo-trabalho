@@ -11,4 +11,4 @@ draw_text(x, y, "Ei garoto, vc foi o escolido para \n" +
 "mas ele morreu, em sua ausencia\n" + 
 "fui o responsavel para manter a paz \n" +
 "mas agora como pode ver não estou em " +
-"\ncarne e osso")
+"\ncarne e osso.\nDerote o Velho e liberte o mundo")
