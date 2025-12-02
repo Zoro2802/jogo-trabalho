@@ -1,0 +1,1 @@
+draw_sprite(sprVida, 6 - global.quantVida, x,y)

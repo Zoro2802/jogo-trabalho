@@ -16,7 +16,7 @@ if (instance_exists(objPlayer)) {
     else {
         if (pode_atacar and ! alarm > 0) {
 			sprite_index = sprInimigoAtaque
-			
+			global.quantVida--
             pode_atacar = false;
             alarm[0] = tempo_recarga;
         }

@@ -6,5 +6,5 @@ dist_ataque = 32;
 
 // Timer de ataque
 pode_atacar = true;
-tempo_recarga = 15; 
+tempo_recarga = 2 * 60; 
 // meio segundo
