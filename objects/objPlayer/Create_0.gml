@@ -20,7 +20,7 @@ velocidadeVertical = 0
 
 velocidadeHorizontal = 0
 
-velocidadeDash = 10
+velocidadeDash = 15
 
 global.tempoDash = 0
 
@@ -38,4 +38,5 @@ if !variable_global_exists("playerAtual"){
 }
 			 
 global.tampoAtaque = 0
-velocidadeAtaque = 5
+
+velocidadeAtaque = 10

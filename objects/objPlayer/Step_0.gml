@@ -27,7 +27,7 @@ if global.tempoDash != 15 and global.tampoAtaque != 3{
 		sprite_index = skinsPlayer[global.playerAtual][1]
 	}
 	else{
-		sprite_index=skinsPlayer[global.playerAtual][0]
+		sprite_index = skinsPlayer[global.playerAtual][0]
 	}
 }
 
@@ -86,11 +86,34 @@ if x > 0 and x < room_width{
 }
 
 
-if global.playerAtual > 2 and keyboard_check_pressed(ord("R")) and global.tampoAtaque == 0 and global.tempoDash != 15{
+if /*global.playerAtual > 2 and*/ keyboard_check_pressed(ord("R")) and global.tampoAtaque == 0 and global.tempoDash != 15{
 	velocidadeHorizontal = velocidadeAtaque * image_xscale
 	sprite_index = skinsPlayer[global.playerAtual, 3]
 	
-	global.tempoDash = 3;
+	global.tampoAtaque = 3;
 	alarm[10] = 60 
 	
+	//ataque = instance_create_layer(x + velocidadeAtaque, y,"Instances" , objCorteVoador)
+	alarm[9] = 25
+	
+}
+
+if keyboard_check_pressed(ord("P")) and global.playerAtual >= 1{
+	//ataque = instance_create_layer(x + velocidadeAtaque, y,"Instances" , objCorteVoador)
+
+	with(instance_create_layer(x + velocidadeAtaque, y,"Instances" , objCorteVoador)){
+		if sign(other.image_xscale){
+			direction = 0
+		}
+		else{
+			direction = 180
+		}
+		
+		image_angle = direction
+		
+		vooAtaque = global.velocidade * 5
+		
+		speed = vooAtaque
+	}
+
 }
