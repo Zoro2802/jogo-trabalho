@@ -1,0 +1,1 @@
+objBau.sprite_index = sprBau
