@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objInimigo",
+  "%Name":"objBos",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objCorteVoador","path":"objects/objCorteVoador/objCorteVoador.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objCorteVoadorDash","path":"objects/objCorteVoadorDash/objCorteVoadorDash.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objInimigo",
+  "name":"objBos",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprInimigoCorrendo",
-    "path":"sprites/sprInimigoCorrendo/sprInimigoCorrendo.yy",
+    "name":"sprBosFinal",
+    "path":"sprites/sprBosFinal/sprBosFinal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

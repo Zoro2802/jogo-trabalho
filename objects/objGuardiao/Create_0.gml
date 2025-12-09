@@ -2,9 +2,11 @@
 vel = 1.5;
 
 // Distância mínima para atacar
-dist_ataque = 38;
+dist_ataque = 128;
 
 // Timer de ataque
 pode_atacar = true;
 tempo_recarga = 2 * 60; 
 // meio segundo
+alarm[0] = 1
+
